@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-const Main: React.FC = () => {
+const Section: React.FC = () => {
   return (
     <main className="flex justify-center">
       <div className="flex flex-col md:flex-row items-center justify-center min-h-screen p-4 w-5/6">
@@ -20,9 +20,9 @@ const Main: React.FC = () => {
           </p>
         </div>
         <div className="md:w-1/2 p-4 flex justify-center">
-          <Image
+          <Image 
             className="rounded-full"
-            src="/portfolio.jpg"
+            src="/me.jpg"
             width={500}
             height={500}
             alt="Picture of the author"
@@ -33,4 +33,4 @@ const Main: React.FC = () => {
   );
 };
 
-export default Main;
+export default Section;
