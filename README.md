@@ -29,7 +29,7 @@ Tenho experiência com desenvolvimento web (React, Node.js, NestJS) e criei dive
 ### 👨‍💻 Projetos Profissionais
 
 - **PontoWeb** (Ahgora Sistemas) - Desenvolvimento de ferramentas para gestão de ponto e controle de horas.
-- ""Ah-reports"" (Ahgora Sistemas) - Trabalho na manutenção e na criação de alguns relatórios para gestão de ponto e controle de horas.
+- **Ah-reports** (Ahgora Sistemas) - Trabalho na manutenção e na criação de alguns relatórios para gestão de ponto e controle de horas.
 
 ### 🎮 Projetos Pessoais
 
