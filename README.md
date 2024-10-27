@@ -28,18 +28,17 @@ Tenho experiência com desenvolvimento web (React, Node.js, NestJS) e criei dive
 
 ### 👨‍💻 Projetos Profissionais
 
-- **PontoWeb** (Ahgora Sistemas) - Desenvolvimento de ferramentas e relatórios para gestão de ponto e controle de horas.
-- **APIs Grandes Empresas** - Colaborei no desenvolvimento de APIs para grandes empresas brasileiras, como Mercado Livre e Via Varejo.
+- **PontoWeb** (Ahgora Sistemas) - Desenvolvimento de ferramentas para gestão de ponto e controle de horas.
+- ""Ah-reports"" (Ahgora Sistemas) - Trabalho na manutenção e na criação de alguns relatórios para gestão de ponto e controle de horas.
 
 ### 🎮 Projetos Pessoais
 
 - **API de League of Legends** - Mini réplica do OP.GG, com funcionalidades como informações de campeões, histórico de partidas, dados de contas e muito mais.
-- **Guitar Hero Clone** - Projeto de um mini-jogo clone do Guitar Hero, utilizando Python e Flask para o backend e JavaScript no frontend.
+- **Elden Ring Wiki** - Uma wiki de elden ring
 
 ## 📩 Contato
 
-- **Email:** [bruno.rodrigues@ahgora.com.br](mailto:bruno.rodrigues@ahgora.com.br)
-- **LinkedIn:** [linkedin.com/in/bruno-rodrigues](https://www.linkedin.com/in/bruno-rodrigues)
+- **LinkedIn:** [linkedin.com/in/bruno-rodrigues]([https://www.linkedin.com/in/bruno-rodrigues](https://www.linkedin.com/in/brnbruno/))
 
 ---
 
