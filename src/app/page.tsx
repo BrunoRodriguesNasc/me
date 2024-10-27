@@ -1,4 +1,4 @@
-import Main from "./components/Main";
+import Main from "./components/main";
 import Navbar from "./components/navbar";
 import WorkedWith from "./components/workedWith";
 
