@@ -3,19 +3,50 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --background: #001524;
+  --foreground: #ededed;
+  --accent: #FF8C42;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.nav-link {
+  color: #9C9C9C;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: var(--accent);
+}
+
+.terminal-window {
+  @apply bg-[#011627] bg-opacity-80 backdrop-blur-sm rounded-lg p-6 border border-[#1E2D3D];
+}
+
+.typing {
+  border-right: 2px solid var(--accent);
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { border-color: transparent }
+  50% { border-color: var(--accent); }
+}
+
+.form-checkbox {
+  @apply rounded border-[#607B96] bg-transparent;
+  @apply checked:bg-[#607B96] checked:border-[#607B96];
+  @apply focus:ring-0 focus:ring-offset-0;
+}
+
+@media (max-width: 768px) {
+  .terminal-window {
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+  }
 }

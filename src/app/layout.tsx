@@ -7,8 +7,8 @@ const ibmPlexMono = IBM_Plex_Mono({
 });
 
 export const metadata = {
-  title: 'Bruno Rodrigues',
-  description: 'Meu portfólio pessoal',
+  title: 'Bruno Rodrigues | Full Stack Developer',
+  description: 'Personal portfolio of Bruno Rodrigues, Full Stack Developer',
 };
 
 export default function RootLayout({ children } : { children: React.ReactNode }) {

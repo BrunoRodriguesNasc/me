@@ -1,11 +1,9 @@
 import React from 'react';
-import WorkSection from '../components/workSection';
+import ProjectsSection from '../components/ProjectsSection';
 
 const Page: React.FC = () => {
     return (
-        <div className="container mx-auto px-4">
-            <WorkSection></WorkSection>
-      </div>
+        <ProjectsSection></ProjectsSection>
     );
 };
 

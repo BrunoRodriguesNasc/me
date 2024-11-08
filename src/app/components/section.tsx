@@ -1,32 +1,49 @@
-import Image from "next/image";
 import React from "react";
+import Image from "next/image";
 
 const Section: React.FC = () => {
   return (
-    <main className="flex justify-center">
-      <div className="flex flex-col md:flex-row items-center justify-center h-[80vh] p-4 w-5/6">
-        <div className="md:w-1/2 p-4">
-          <h1 className="text-4xl font-bold mb-4">Bruno Rodrigues</h1>
-          <p className="text-lg ">
-                 Hey there! I&lsquo;m Bruno Rodrigues, a passionate Full Stack Developer
-            with a knack for bringing ideas to life through code. With years of
-            experience building scalable web applications, I&apos;ve worked with some
-            of Brazil&apos;s largest companies, creating APIs and robust solutions to
-            enhance user experiences. II&lsquo;m proficient in a wide range of
-            technologies like JavaScript, Next.js, React, PHP, and Node.js, and
-            I enjoy tackling complex problems head-on. My goal is to use my
-            skills to empower people and create impactful solutions that make a
-            difference in the tech world.
-          </p>
+    <main className="flex justify-center min-h-screen items-center p-4">
+      <div className="terminal-window w-full max-w-4xl flex flex-col md:flex-row items-center gap-8">
+        <div className="flex-1">
+          <div className="mb-8">
+            <p className="text-gray-400 text-sm md:text-base">Hi all. I am</p>
+            <h1 className="text-3xl md:text-5xl font-bold mb-4">Bruno Rodrigues</h1>
+            <div className="text-lg md:text-xl text-[#8A8AFF]">
+              {'>'} <span className="typing">Full Stack Developer</span>
+            </div>
+          </div>
+          
+          <div className="text-gray-300 mt-6">
+            <p className="mb-4 text-sm md:text-base">// about me</p>
+            <div className="pl-4 text-sm md:text-base">
+              Hey there! I'm Bruno Rodrigues, a passionate Full Stack Developer
+              with a knack for bringing ideas to life through code.
+            </div>
+          </div>
+
+          <div className="mt-6">
+            <p className="text-gray-400 text-sm md:text-base">// find my profile on Github</p>
+            <div className="text-[#8A8AFF] text-sm md:text-base break-all">
+              const <span className="text-[#FF8C42]">githubLink</span> = 
+              "<a href="https://github.com/BrunoRodriguesNasc" 
+                  className="hover:text-[#FF8C42]">
+                https://github.com/BrunoRodriguesNasc
+              </a>"
+            </div>
+          </div>
         </div>
-        <div className="md:w-1/2 p-4 flex justify-center">
-          <Image 
-            className="rounded-full"
-            src="/me.jpg"
-            width={500}
-            height={500}
-            alt="Picture of the author"
-          />
+
+        <div className="md:flex-shrink-0 order-first md:order-last mb-8 md:mb-0">
+          <div className="relative w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-[#8A8AFF]">
+            <Image
+              src="/me.jpg"
+              alt="Bruno Rodrigues"
+              fill
+              style={{ objectFit: 'cover' }}
+              priority
+            />
+          </div>
         </div>
       </div>
     </main>

@@ -4,7 +4,7 @@ Bem-vindo ao repositório do meu portfólio! Aqui, você encontrará uma coleç�
 
 ## 🌐 Online
 
-Você pode acessar meu portfólio online [aqui](https://seu-portfolio-url.com).
+Você pode acessar meu portfólio online [aqui](brunorodridev.vercel.app).
 
 ## 🚀 Tecnologias Utilizadas
 
@@ -39,6 +39,12 @@ Tenho experiência com desenvolvimento web (React, Node.js, NestJS) e criei dive
 ## 📩 Contato
 
 - **LinkedIn:** [linkedin.com/in/bruno-rodrigues]([https://www.linkedin.com/in/bruno-rodrigues](https://www.linkedin.com/in/brnbruno/))
+
+## Design Credits
+
+This project's design is inspired by "Portfolio for Developers Concept V.2" created by [Yanka Darelova](https://www.figma.com/@yanka_darelova) on Figma.
+
+- **Figma Community Link**: [Portfolio for Developers Concept V.2](https://www.figma.com/community/file/1100794861710979147)
 
 ---
 
