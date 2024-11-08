@@ -61,7 +61,7 @@ const ProjectsSection: React.FC = () => {
 
   const filteredProjects = useMemo(() => {
     const activeFilters = Object.entries(filters)
-      .filter(([_, isActive]) => isActive)
+      .filter(([, isActive]) => isActive)
       .map(([tech]) => tech);
 
     return activeFilters.length === 0
@@ -71,7 +71,7 @@ const ProjectsSection: React.FC = () => {
             activeFilters.includes(tech)
           )
         );
-  }, [filters]);
+  }, [filters, allProjects]);
 
   return (
     <div className="flex flex-col min-h-screen pt-24">
@@ -120,7 +120,7 @@ const ProjectsSection: React.FC = () => {
                 <div className="p-4 flex flex-col flex-grow">
                   <div>
                     <h3 className="text-[#607B96]">
-                      Project {index + 1} // <span className="text-white">{project.subtitle}</span>
+                      Project {index + 1} <span className="text-white">{project.subtitle}</span>
                     </h3>
                     <p className="text-[#607B96] mt-2">{project.description}</p>
                   </div>

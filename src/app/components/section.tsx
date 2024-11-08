@@ -15,21 +15,21 @@ const Section: React.FC = () => {
           </div>
           
           <div className="text-gray-300 mt-6">
-            <p className="mb-4 text-sm md:text-base">// about me</p>
+            <p className="mb-4 text-sm md:text-base">{/* about me */}</p>
             <div className="pl-4 text-sm md:text-base">
-              Hey there! I'm Bruno Rodrigues, a passionate Full Stack Developer
+              Hey there! I&apos;m Bruno Rodrigues, a passionate Full Stack Developer
               with a knack for bringing ideas to life through code.
             </div>
           </div>
 
           <div className="mt-6">
-            <p className="text-gray-400 text-sm md:text-base">// find my profile on Github</p>
+            <p className="text-gray-400 text-sm md:text-base">{/* find my profile on Github */}</p>
             <div className="text-[#8A8AFF] text-sm md:text-base break-all">
               const <span className="text-[#FF8C42]">githubLink</span> = 
-              "<a href="https://github.com/BrunoRodriguesNasc" 
+              &quot;<a href="https://github.com/BrunoRodriguesNasc" 
                   className="hover:text-[#FF8C42]">
                 https://github.com/BrunoRodriguesNasc
-              </a>"
+              </a>&quot;
             </div>
           </div>
         </div>

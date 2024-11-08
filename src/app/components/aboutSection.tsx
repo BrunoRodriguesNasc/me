@@ -1,7 +1,6 @@
 'use client'
 import React, { useState } from 'react';
 import { FaChevronDown, FaChevronRight } from 'react-icons/fa';
-import Image from 'next/image';
 
 interface EducationInfo {
   school: string;
