@@ -169,9 +169,9 @@ I've been lucky enough to work on some pretty big projects, always focusing on c
         </div>
 
         {/* Main Content */}
-        <div className="terminal-window">
+        <div className="terminal-window h-full">
           {expandedSections.bio ? (
-            <div className="text-[#607B96] whitespace-pre-line">
+            <div className="text-[#607B96]">
               {bioInfo.text}
             </div>
           ) : expandedSections.education ? (
@@ -220,12 +220,12 @@ I've been lucky enough to work on some pretty big projects, always focusing on c
             </div>
           ) : (
             <div className="font-mono text-[#607B96]">
-              <div className="mb-4">/**</div>
+              <div className="mb-4">{'{/*'}</div>
               <div className="pl-4 space-y-1">
                 <div>* Select a section from the sidebar</div>
                 <div>* to view more information</div>
               </div>
-              <div className="mt-4">*/</div>
+              <div className="mt-4">{'*/}'}</div>
             </div>
           )}
         </div>
