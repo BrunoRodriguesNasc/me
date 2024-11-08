@@ -17,7 +17,7 @@ const Section: React.FC = () => {
           <div className="text-gray-300 mt-6">
             <p className="mb-4 text-sm md:text-base">{/* about me */}</p>
             <div className="pl-4 text-sm md:text-base">
-              Hey there! I&apos;m Bruno Rodrigues, a passionate Full Stack Developer
+              A passionate Full Stack Developer
               with a knack for bringing ideas to life through code.
             </div>
           </div>
