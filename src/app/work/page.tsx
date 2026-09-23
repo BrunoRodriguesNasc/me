@@ -1,10 +1,5 @@
-import React from 'react';
-import ProjectsSection from '../components/ProjectsSection';
+import { redirect } from 'next/navigation';
 
-const Page: React.FC = () => {
-    return (
-        <ProjectsSection></ProjectsSection>
-    );
-};
-
-export default Page;
+export default function WorkPage() {
+  redirect('/#work');
+}

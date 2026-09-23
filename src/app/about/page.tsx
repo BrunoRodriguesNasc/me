@@ -1,14 +1,5 @@
-import React from 'react';
-import Navbar from '../components/navbar';
-import AboutSection from '../components/aboutSection';
+import { redirect } from 'next/navigation';
 
-const AboutPage: React.FC = () => {
-  return (
-    <div>
-      <Navbar />
-      <AboutSection />
-    </div>
-  );
-};
-
-export default AboutPage; 
+export default function AboutPage() {
+  redirect('/#about');
+}

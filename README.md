@@ -6,11 +6,16 @@ Welcome to my portfolio repository! This repository showcases my projects, techn
 You can view my portfolio live at [brunorodridev.vercel.app](https://brunorodridev.vercel.app).  
 
 ## Technologies Used  
-This portfolio was built with:  
+This portfolio is a single-page, animated experience built with:  
 - **Frontend:**  
-  - Next.js  
-  - React  
-  - Tailwind CSS  
+  - Next.js
+  - React
+  - TypeScript
+  - Tailwind CSS
+- **3D & Motion:**
+  - Three.js / React Three Fiber (animated hero scene)
+  - Framer Motion (scroll reveals)
+  - Lenis (smooth scrolling)
 - **Version Control:**  
   - Git  
   - GitHub  

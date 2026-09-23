@@ -1,11 +1,15 @@
-import Section from "./components/section";
-import Navbar from "./components/navbar";
+import Hero from './components/Hero';
+import Work from './components/Work';
+import About from './components/About';
+import Contact from './components/Contact';
 
 export default function Home() {
   return (
-    <div>
-      <Navbar/>
-      <Section></Section>
-    </div>
+    <main>
+      <Hero />
+      <Work />
+      <About />
+      <Contact />
+    </main>
   );
 }

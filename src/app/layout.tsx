@@ -1,21 +1,38 @@
 import './globals.css';
-import { IBM_Plex_Mono } from 'next/font/google';
+import { Inter, Space_Grotesk } from 'next/font/google';
+import SmoothScroll from './components/SmoothScroll';
+import CustomCursor from './components/CustomCursor';
+import Loader from './components/Loader';
+import Navbar from './components/Navbar';
 
-const ibmPlexMono = IBM_Plex_Mono({
+const inter = Inter({
+  subsets: ['latin'],
+  variable: '--font-body',
+  display: 'swap',
+});
+
+const spaceGrotesk = Space_Grotesk({
   subsets: ['latin'],
   weight: ['400', '500', '600', '700'],
+  variable: '--font-display',
+  display: 'swap',
 });
 
 export const metadata = {
-  title: 'Bruno Rodrigues | Full Stack Developer',
-  description: 'Personal portfolio of Bruno Rodrigues, Full Stack Developer',
+  title: 'Bruno Rodrigues | Software Engineer',
+  description:
+    'Bruno Rodrigues — Software Engineer building fast, reliable web products with React, Node.js and TypeScript.',
 };
 
-export default function RootLayout({ children } : { children: React.ReactNode }) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="pt-BR">
-      <body className={ibmPlexMono.className}>{children}</body>
+    <html lang="pt-BR" className={`${inter.variable} ${spaceGrotesk.variable}`}>
+      <body className="font-sans antialiased">
+        <Loader />
+        <CustomCursor />
+        <Navbar />
+        <SmoothScroll>{children}</SmoothScroll>
+      </body>
     </html>
   );
 }
-
