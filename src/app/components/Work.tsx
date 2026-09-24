@@ -16,6 +16,15 @@ interface Project {
 const projects: Project[] = [
   {
     index: '01',
+    tag: 'Founder · SaaS Product',
+    title: 'PostIn',
+    description:
+      'A live SaaS platform that helps developers automate their LinkedIn presence: AI-generated posts (GPT-5) with multiple tones and variants, smart scheduling with automatic publishing, and a free-to-paid plan built end to end — from LinkedIn OAuth to billing.',
+    technologies: ['Next.js', 'TypeScript', 'OpenAI GPT-5', 'MongoDB', 'Prisma', 'NextAuth', 'Upstash QStash'],
+    link: 'https://postin.com.br',
+  },
+  {
+    index: '02',
     tag: 'Enterprise · Time Tracking',
     title: 'Ponto Web',
     description:
@@ -25,7 +34,7 @@ const projects: Project[] = [
     image: '/pw.jpg',
   },
   {
-    index: '02',
+    index: '03',
     tag: 'Analytics · Reporting',
     title: 'Ah-reports',
     description:
@@ -35,7 +44,7 @@ const projects: Project[] = [
     image: '/reports.jpg',
   },
   {
-    index: '03',
+    index: '04',
     tag: 'AI Engineering · Internal R&D',
     title: 'Enterprise Knowledge & Feature Flag Assistant',
     description:
@@ -43,7 +52,7 @@ const projects: Project[] = [
     technologies: ['Node.js', 'TypeScript', 'MCP', 'LLM', 'Graph-Based Knowledge'],
   },
   {
-    index: '04',
+    index: '05',
     tag: 'Personal · API',
     title: 'League of Legends Stats API',
     description:
@@ -53,7 +62,7 @@ const projects: Project[] = [
     image: '/league.jpg',
   },
   {
-    index: '05',
+    index: '06',
     tag: 'Personal · Content',
     title: 'Elden Ring Wiki',
     description:
