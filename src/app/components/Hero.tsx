@@ -46,7 +46,7 @@ export default function Hero() {
           custom={0}
           className="text-xs md:text-sm tracking-widest-sm uppercase text-muted mb-6"
         >
-          Software Engineer
+          Senior Software Engineer
         </motion.p>
 
         <motion.h1
@@ -68,8 +68,9 @@ export default function Hero() {
           custom={2}
           className="max-w-md mt-8 text-muted text-base md:text-lg"
         >
-          Eu projeto e construo produtos web rápidos, confiáveis e bem
-          arquitetados — do backend em Node/NestJS à interface em React.
+          5+ years building, modernizing, and maintaining business-critical
+          web applications and APIs — with TypeScript, Node.js and React,
+          and increasingly with AI-assisted engineering workflows.
         </motion.p>
 
         <motion.div
@@ -80,16 +81,16 @@ export default function Hero() {
           className="flex flex-wrap gap-4 mt-10 pointer-events-auto"
         >
           <a href="#work" data-cursor="hover" className="pill-btn pill-btn-solid">
-            Ver projetos
+            View work
           </a>
           <a href="#contact" data-cursor="hover" className="pill-btn">
-            Falar comigo
+            Get in touch
           </a>
         </motion.div>
       </div>
 
       <div className="relative container-px pb-8 flex justify-between items-end text-muted text-xs tracking-widest-sm uppercase">
-        <span>Florianópolis, Brasil</span>
+        <span>Florianópolis, Brazil</span>
         <motion.span
           animate={{ y: [0, 6, 0] }}
           transition={{ duration: 1.8, repeat: Infinity, ease: 'easeInOut' }}

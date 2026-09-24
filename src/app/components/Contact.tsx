@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const fadeUp = {
   hidden: { opacity: 0, y: 24 },
@@ -19,26 +19,33 @@ export default function Contact() {
           variants={fadeUp}
           className="border-t hairline pt-16 flex flex-col items-start"
         >
-          <span className="text-xs tracking-widest-sm uppercase text-muted">Contato</span>
+          <span className="text-xs tracking-widest-sm uppercase text-muted">Contact</span>
           <h2 className="font-display uppercase text-5xl md:text-[6.5vw] leading-[0.95] mt-6 max-w-4xl">
-            Vamos construir
+            Let&apos;s build
             <br />
-            algo juntos.
+            something together.
           </h2>
           <p className="text-muted max-w-xl mt-6 text-base md:text-lg">
-            Aberto a novas oportunidades, projetos freelance e colaborações. Se você tem uma ideia
-            ou uma vaga que combina com o meu perfil, me chama.
+            Open to new opportunities, freelance projects, and collaborations. If you have an
+            idea or a role that fits my background, let&apos;s talk.
           </p>
 
           <div className="flex flex-wrap gap-4 mt-10">
+            <a
+              href="mailto:brunorodrinasc@gmail.com"
+              data-cursor="hover"
+              className="pill-btn pill-btn-solid"
+            >
+              <FaEnvelope /> Email me
+            </a>
             <a
               href="https://www.linkedin.com/in/brnbruno/"
               target="_blank"
               rel="noopener noreferrer"
               data-cursor="hover"
-              className="pill-btn pill-btn-solid"
+              className="pill-btn"
             >
-              <FaLinkedin /> Conectar no LinkedIn
+              <FaLinkedin /> LinkedIn
             </a>
             <a
               href="https://github.com/BrunoRodriguesNasc"
@@ -47,14 +54,14 @@ export default function Contact() {
               data-cursor="hover"
               className="pill-btn"
             >
-              <FaGithub /> Ver GitHub
+              <FaGithub /> GitHub
             </a>
           </div>
         </motion.div>
 
         <div className="flex flex-col md:flex-row justify-between gap-4 mt-24 pt-8 border-t hairline text-xs tracking-widest-sm uppercase text-muted">
           <span>© {new Date().getFullYear()} Bruno Rodrigues</span>
-          <span>Disponível para freelance e novas oportunidades</span>
+          <span>Available for freelance and full-time opportunities</span>
         </div>
       </div>
     </section>

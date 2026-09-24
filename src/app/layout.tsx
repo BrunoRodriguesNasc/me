@@ -19,14 +19,14 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata = {
-  title: 'Bruno Rodrigues | Software Engineer',
+  title: 'Bruno Rodrigues | Senior Software Engineer',
   description:
-    'Bruno Rodrigues — Software Engineer building fast, reliable web products with React, Node.js and TypeScript.',
+    'Senior Software Engineer with 5+ years of experience building, modernizing, and maintaining business-critical web applications and APIs.',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="pt-BR" className={`${inter.variable} ${spaceGrotesk.variable}`}>
+    <html lang="en" className={`${inter.variable} ${spaceGrotesk.variable}`}>
       <body className="font-sans antialiased">
         <Loader />
         <CustomCursor />

@@ -4,26 +4,29 @@ import { motion } from 'framer-motion';
 
 const experience = [
   {
-    period: '2022 — atual',
-    role: 'Engenheiro de Software',
-    company: 'Ahgora by TOTVS',
+    period: 'Jun 2024 — Present',
+    role: 'Senior Software Engineer',
+    company: 'TOTVS',
     description:
-      'Projeto e implemento novos recursos para o produto principal da empresa, resolvo bugs críticos e analiso melhorias, priorizando desempenho, confiabilidade e experiência do usuário.',
-    skills: ['JavaScript', 'PHP', 'MongoDB', 'NestJS', 'React', 'Node', 'Docker', 'AWS'],
+      'Investigate and resolve complex production issues across business-critical systems, modernize legacy modules, and improve API and backend performance. Work across Node.js, TypeScript, React, Next.js, PHP, and Go, using AI-assisted tools like Claude Code and Cursor to accelerate investigation, implementation, and documentation. Reduced a critical backlog from 30 to 3 items in one quarter.',
+    skills: ['TypeScript', 'Node.js', 'React', 'Next.js', 'PHP', 'Go', 'AWS', 'Kafka', 'Docker'],
   },
   {
-    period: '2021 — 2022',
-    role: 'Estagiário de Desenvolvimento',
-    company: 'Ahgora by TOTVS',
-    description: 'Responsável pela manutenção de sistemas e execução de tarefas de desenvolvimento.',
-    skills: ['JavaScript', 'PHP', 'MongoDB', 'Kafka', 'React', 'Webpack'],
+    period: 'May 2020 — May 2024',
+    role: 'Senior Software Engineer',
+    company: 'Ahgora Sistemas',
+    description:
+      'Maintained and evolved business-critical systems for major Brazilian clients, including Via Varejo and Mercado Livre, consistently supporting a 90% SLA target. Investigated high-priority production issues, implemented monitoring and operational metrics, worked with event-driven components, and helped onboard and mentor new team members.',
+    skills: ['PHP', 'JavaScript', 'Node.js', 'React', 'AWS', 'Kafka', 'Docker', 'NoSQL'],
   },
 ];
 
 const skillGroups = [
-  { label: 'Frontend', items: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS'] },
-  { label: 'Backend', items: ['Node.js', 'NestJS', 'PHP', 'REST APIs'] },
-  { label: 'Dados & Infra', items: ['MongoDB', 'MySQL', 'Docker', 'AWS'] },
+  { label: 'Languages', items: ['TypeScript', 'JavaScript', 'PHP', 'Python', 'Go', 'Java'] },
+  { label: 'Backend', items: ['Node.js', 'NestJS', 'Express.js', 'REST APIs', 'Microservices'] },
+  { label: 'Frontend', items: ['React', 'Next.js', 'Tailwind CSS'] },
+  { label: 'Data & Infra', items: ['SQL', 'NoSQL', 'Prisma', 'TypeORM', 'AWS', 'Docker', 'Kafka'] },
+  { label: 'AI-Assisted Engineering', items: ['Claude Code', 'Cursor', 'ChatGPT', 'AI Coding Agents'] },
 ];
 
 const fadeUp = {
@@ -44,14 +47,18 @@ export default function About() {
         >
           <span className="text-xs tracking-widest-sm uppercase text-muted">About</span>
           <h2 className="font-display uppercase text-4xl md:text-6xl mt-4 max-w-3xl leading-[1.05]">
-            Eu gosto de código limpo e de produtos que funcionam de verdade.
+            I like clean code and products that actually work.
           </h2>
           <p className="text-muted max-w-2xl mt-6 text-base md:text-lg leading-relaxed">
-            Sou Bruno, engenheiro de software full stack com mais de 3 anos de experiência
-            construindo aplicações web para clientes de grande porte. Trabalho tanto na base —
-            APIs, banco de dados, infraestrutura — quanto na interface, sempre buscando soluções
-            simples para problemas complexos. Curioso por natureza, gosto de entender o
-            &quot;porquê&quot; antes do &quot;como&quot;.
+            I&apos;m Bruno, a Senior Software Engineer with 5+ years of experience building,
+            modernizing, and maintaining business-critical web applications and APIs. Strong
+            background in TypeScript, JavaScript, Node.js, React, Next.js, PHP, Go, AWS, Kafka,
+            and distributed systems, with extensive experience working with complex business
+            rules and legacy systems. I&apos;m also experienced in AI-assisted software
+            engineering — using Claude Code, Cursor, and ChatGPT to accelerate code
+            investigation, implementation, debugging, documentation, and technical analysis —
+            always focused on reliability, maintainability, and translating complex business
+            requirements into software solutions.
           </p>
         </motion.div>
 
@@ -113,10 +120,10 @@ export default function About() {
             </div>
 
             <div className="mt-12 pt-8 border-t hairline">
-              <h4 className="font-display text-sm uppercase tracking-widest-sm text-muted mb-3">Formação</h4>
+              <h4 className="font-display text-sm uppercase tracking-widest-sm text-muted mb-3">Education</h4>
               <p className="text-sm md:text-base">Senac Santa Catarina</p>
               <p className="text-muted text-sm mt-1">
-                Análise e Desenvolvimento de Sistemas · 2020 — 2022
+                Associate Degree in Systems Analysis and Development · 2020 — 2022
               </p>
             </div>
           </motion.div>
